@@ -21,10 +21,12 @@ $(document).ready(function () {
   
 		var databaseNameId = document.getElementById("userPasswordId");
 		document.getElementById("demo3").innerHTML = databaseNameId.innerText;
+		
+		localStorage.setItem("user_name", "userText");
+		localStorage.setItem("passwordId", "databaseNameId");
 	}, false);
 });
 
-}
 </script>
 
 </body>
